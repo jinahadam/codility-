@@ -11,13 +11,18 @@ import XCTest
 class MissingElementInArray: XCTestCase {
 
     public func solution(_ A : inout [Int]) -> Int {
-        var occurence = Array(repeating: false, count: A.count + 2)
-        for j in A {
-            if occurence[j] == false {
-                occurence[j] = true
-            }
-        }
-        return occurence.lastIndex(of: false)!
+//        var occurence = Array(repeating: false, count: A.count + 2)
+//        for j in A {
+//            if occurence[j] == false {
+//                occurence[j] = true
+//            }
+//        }
+//        return occurence.lastIndex(of: false)!
+        let n = A.count + 1
+        var total = n*(n+1)/2
+        A.forEach { total -= $0 }
+        return total
+
     }
 
     func testMissingElement() {

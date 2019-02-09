@@ -15,6 +15,7 @@
 		8019F2582209CF3D00E02854 /* codalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019F2572209CF3D00E02854 /* codalityTests.swift */; };
 		8033F859220EE31D00DE17E4 /* FirstCoveringPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F858220EE31D00DE17E4 /* FirstCoveringPrefix.swift */; };
 		8091E302220EF0D90023E603 /* ArrayNonOddElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091E301220EF0D90023E603 /* ArrayNonOddElement.swift */; };
+		8091E304220F12660023E603 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091E303220F12660023E603 /* CyclicRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		8033F810220E5A3B00DE17E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8033F858220EE31D00DE17E4 /* FirstCoveringPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoveringPrefix.swift; sourceTree = "<group>"; };
 		8091E301220EF0D90023E603 /* ArrayNonOddElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayNonOddElement.swift; sourceTree = "<group>"; };
+		8091E303220F12660023E603 /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8019F2592209CF3D00E02854 /* Info.plist */,
 				8033F858220EE31D00DE17E4 /* FirstCoveringPrefix.swift */,
 				8091E301220EF0D90023E603 /* ArrayNonOddElement.swift */,
+				8091E303220F12660023E603 /* CyclicRotation.swift */,
 			);
 			path = codalityTests;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				8019F2582209CF3D00E02854 /* codalityTests.swift in Sources */,
 				8033F859220EE31D00DE17E4 /* FirstCoveringPrefix.swift in Sources */,
+				8091E304220F12660023E603 /* CyclicRotation.swift in Sources */,
 				8091E302220EF0D90023E603 /* ArrayNonOddElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,11 +17,20 @@ extension Array where Element == Int {
         }
         return count - 1
     }
+
 }
 
 public func solution(_ A : inout [Int]) -> Int {
     // write your code in Swift 4.2.1 (Linux)
-    return A.coveringPrefix()
+    var occur = Array(repeatElement(false, count: A.count))
+    var returnVal = A.count - 1
+    for idx in 0..<A.count {
+        if occur[A[idx]] == false {
+            occur[A[idx]] = true
+            returnVal = idx
+        }
+    }
+    return returnVal
 }
 
 class FirstCoveringPrefix: XCTestCase {

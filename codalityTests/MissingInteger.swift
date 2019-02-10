@@ -9,6 +9,7 @@
 import XCTest
 
 class MissingInteger: XCTestCase {
+
     public func solution(_ A : inout [Int]) -> Int {
         var returnValue = 1
         for item in A.sorted() {

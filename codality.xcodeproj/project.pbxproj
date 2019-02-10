@@ -14,6 +14,8 @@
 		8019F24D2209CF3D00E02854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8019F24B2209CF3D00E02854 /* LaunchScreen.storyboard */; };
 		8019F2582209CF3D00E02854 /* codalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019F2572209CF3D00E02854 /* codalityTests.swift */; };
 		8033F859220EE31D00DE17E4 /* FirstCoveringPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F858220EE31D00DE17E4 /* FirstCoveringPrefix.swift */; };
+		80758A16220FCA9B004B48CA /* PermutationCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80758A15220FCA9B004B48CA /* PermutationCheck.swift */; };
+		80758A18220FCE29004B48CA /* FallingLeafs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80758A17220FCE29004B48CA /* FallingLeafs.swift */; };
 		8091E302220EF0D90023E603 /* ArrayNonOddElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091E301220EF0D90023E603 /* ArrayNonOddElement.swift */; };
 		8091E304220F12660023E603 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091E303220F12660023E603 /* CyclicRotation.swift */; };
 		8091E306220F15BE0023E603 /* FrogJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091E305220F15BE0023E603 /* FrogJump.swift */; };
@@ -44,6 +46,8 @@
 		8019F2592209CF3D00E02854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8033F810220E5A3B00DE17E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8033F858220EE31D00DE17E4 /* FirstCoveringPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoveringPrefix.swift; sourceTree = "<group>"; };
+		80758A15220FCA9B004B48CA /* PermutationCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationCheck.swift; sourceTree = "<group>"; };
+		80758A17220FCE29004B48CA /* FallingLeafs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingLeafs.swift; sourceTree = "<group>"; };
 		8091E301220EF0D90023E603 /* ArrayNonOddElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayNonOddElement.swift; sourceTree = "<group>"; };
 		8091E303220F12660023E603 /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 		8091E305220F15BE0023E603 /* FrogJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJump.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				8091E305220F15BE0023E603 /* FrogJump.swift */,
 				8091E307220F210B0023E603 /* MissingElementInArray.swift */,
 				8091E309220F2A4E0023E603 /* TapeEquilibrium.swift */,
+				80758A15220FCA9B004B48CA /* PermutationCheck.swift */,
+				80758A17220FCE29004B48CA /* FallingLeafs.swift */,
 			);
 			path = codalityTests;
 			sourceTree = "<group>";
@@ -229,10 +235,12 @@
 				8091E30A220F2A4E0023E603 /* TapeEquilibrium.swift in Sources */,
 				8091E308220F210B0023E603 /* MissingElementInArray.swift in Sources */,
 				8019F2582209CF3D00E02854 /* codalityTests.swift in Sources */,
+				80758A18220FCE29004B48CA /* FallingLeafs.swift in Sources */,
 				8033F859220EE31D00DE17E4 /* FirstCoveringPrefix.swift in Sources */,
 				8091E304220F12660023E603 /* CyclicRotation.swift in Sources */,
 				8091E302220EF0D90023E603 /* ArrayNonOddElement.swift in Sources */,
 				8091E306220F15BE0023E603 /* FrogJump.swift in Sources */,
+				80758A16220FCA9B004B48CA /* PermutationCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
